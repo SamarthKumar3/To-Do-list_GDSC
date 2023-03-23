@@ -1,0 +1,153 @@
+html {
+    min-width: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-image: var(--primary-color);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+:root {
+
+    --primary-color: linear-gradient(to bottom right, #B9E0FF, #8D9EFF);
+    --secondary-color: #8D72E1;
+    --tertiary-color: #6C4AB6;
+    
+}
+
+.dark-page {
+
+    --primary-color: linear-gradient(to bottom right, #433444, #000427 100%);
+    --secondary-color: #c39ceb;
+    --tertiary-color: grey;
+    
+}
+
+.navbar{
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    background-color: powderblue;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.tList {
+    padding: 5rem;
+    
+}
+
+.nav-icons {
+    position: absolute;
+    right: 40px;
+    top: 16px;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin-left: 40px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    color: var(--tertiary-color);
+    margin-bottom: 4rem;
+}
+
+
+
+ol, .list-time{
+    padding: 0;
+}
+
+.olli {
+    width: 100%;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-color: #f3f3f3 ;
+    border-radius: 10px;
+}
+
+.olli:hover{
+    box-shadow: 0 15px 15px -10px rgba(0, 0, 0, .5);
+    width: 575px;
+    border-radius: 10px;
+}
+
+.float-container {
+    height: 390px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.inputArea {
+    background-color: white;
+    height: 390px;
+    border-radius: 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+
+.grid-container {
+    width: 50%;
+}
+
+.addInput {
+    width: 95%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+
+
+.fa-trash {
+    margin-right: 30px;
+    color: #6B7280;
+}
+
+
+
+.fa-circle-plus {
+    position: absolute;
+    right: 5px;
+    bottom: 20px;
+}
+
+#input-text {
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+}
+
+.inputlist {
+    background-color: #f3f3f3;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.list-time {
+    font-size: 10px;
+    padding: 0 0 5px 45px;
+}
